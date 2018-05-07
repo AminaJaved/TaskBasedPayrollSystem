@@ -74,6 +74,8 @@ namespace WindowsFormsApplication2
 
                     Employee a = new Employee();
                     a.AdminName = txtUserName.Text;
+                    a.Sec_question = combo_Q.Text;
+                    a.Sec_answer = textAns.Text;
                     a.AdminPassword = txtPassword.Text;
                     a.AdminImage = pictureBox1.Image;
                     EmployeeDL.adminName.Add(a);
